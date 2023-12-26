@@ -5,6 +5,9 @@
 }
 body{
     background-color: #222831;
+     border: 1px solid rgba(238, 238, 238, 0.10);
+
+     ;
 }
 header{
     border-bottom:1px solid #eee;
@@ -30,36 +33,47 @@ nav ul{
     justify-content: space-between;
     align-items: center;
     padding: 100px 0px;
+    /* gap: 250px; */
+    
 }
 .hero_button{
     margin-top: 20px;
 
 }
 button {
-        background-color: aqua;
+        background-color:rgb(0, 173, 181);
         border-radius: 10px;
         padding: 10px 25px;
-        font-size: 18px;
-        color: black;
+        font-size: 14px;
+        color: white;
+        border: none;
+        font-weight: bold;
     }
 
-
+.hero-left-side{
+    width: 60%;
+}
 .hero-left-side h1 {
     font-size: 96px;
     color: white;
     font-weight: 700;
     line-height: 96px;
+    
 }
 
+
 .hero-left-side h1 span {
-    color: brown;
+    color:rgb(0, 173, 181);
+}
+.hero-right-side{
+    width: 40%;
 }
 .right-area{
     
     position: absolute;
     z-index: 1;
-    padding-top: 230px;
-    padding-left: 25px;
+    padding-top: 220px;
+    /* /* padding-left: 25px; */
 }
 .right-area img{
     width: 350px;
@@ -69,11 +83,24 @@ button {
 }
 .right-area2{
     position: relative;
-}
-.right-area2 img{
-    width: 100%;
     
 
+}
+    
+.right-area2 img{
+    width: 500px;
+}
+
+.vector-img img{
+    width: 50px;
+}
+.vector-img{
+
+padding: 1px;
+width: 60px;
+display: inline-block;
+top: 500px;
+bottom: 300px;
 }
 .name{
     writing-mode: vertical-lr;
