@@ -7,7 +7,7 @@ body{
     background-color: #222831;
 }
 header{
-    border-bottom:2px solid #eee;
+    border-bottom:1px solid #eee;
 }
 .container{
     width: 1200px;
@@ -47,7 +47,8 @@ button {
     background-image: url(image/doodles\ mixed\ round.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: middle center;
+    background-position: center;
+    
 
 }
 .hero-left-side h1 {
@@ -59,4 +60,36 @@ button {
 
 .hero-left-side h1 span {
     color: brown;
+}
+.right-area{
+    position: relative;
+}
+.name{
+    writing-mode: vertical-lr;
+    text-align: center;
+    padding: 50px;
+    color: beige;
+}
+@media  (max-width:400px) {
+
+    .header-area {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .hero_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 150px;
+        text-align: center;
+    }
 }
