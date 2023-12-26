@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222831;
+}
+header{
+    border-bottom:2px solid #eee;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-area{
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 0px;
+  
+}
+nav ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.hero_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+}
+.hero_button{
+    margin-top: 20px;
+
+}
+button {
+        background-color: aqua;
+        border-radius: 10px;
+        padding: 10px 25px;
+        font-size: 18px;
+        color: black;
+    }
+
+.hero-right-side{
+    background-image: url(image/doodles\ mixed\ round.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: middle center;
+
+}
+.hero-left-side h1 {
+    font-size: 96px;
+    color: white;
+    font-weight: 700;
+    line-height: 96px;
+}
+
+.hero-left-side h1 span {
+    color: brown;
+}
