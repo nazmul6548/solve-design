@@ -43,14 +43,7 @@ button {
         color: black;
     }
 
-.hero-right-side{
-    background-image: url(image/doodles\ mixed\ round.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    
 
-}
 .hero-left-side h1 {
     font-size: 96px;
     color: white;
@@ -62,7 +55,25 @@ button {
     color: brown;
 }
 .right-area{
+    
+    position: absolute;
+    z-index: 1;
+    padding-top: 230px;
+    padding-left: 25px;
+}
+.right-area img{
+    width: 350px;
+    
+   
+    
+}
+.right-area2{
     position: relative;
+}
+.right-area2 img{
+    width: 100%;
+    
+
 }
 .name{
     writing-mode: vertical-lr;
